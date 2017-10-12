@@ -1,0 +1,2006 @@
+<?xml version="1.0" encoding="US-ASCII" standalone="no"?>
+<!DOCTYPE focus-model [
+]>
+<!--C000564 FL UM Phase2 V1.1_0816--><focus-model atcFilePath="" auxDataFilesFolder="" classifyAttributesEnabled="false" inputOutput="false" manual="true">
+<model-identification modelTag="@5.3 Commercial Auto Model @V1 @Functionality check">
+<model-identification-field name="Application Name" partOfTag="true" value="5.3 Commercial Auto Model"/>
+<model-identification-field name="Application code version #" partOfTag="true" value="V1"/>
+<model-identification-field name="Application Function" partOfTag="true" value="Functionality check"/>
+<model-identification-field name="Updated Reason" partOfTag="false" value="New Model"/>
+<model-identification-field name="Created By" partOfTag="false" value="harika.bulusu@in.ibm.com"/>
+<model-identification-field name="Created Date and Time" partOfTag="false" value="04 Apr 2017 12:31:01"/>
+<model-identification-field name="Updated By" partOfTag="false" value="harika.bulusu@in.ibm.com"/>
+<model-identification-field name="Updated Date and Time" partOfTag="false" value="04 Apr 2017 12:31:01"/>
+<model-identification-field name="Application Sub Function" partOfTag="false" value=""/>
+<model-identification-field name="Test Stage" partOfTag="false" value=""/>
+<model-identification-field name="Criticality" partOfTag="false" value=""/>
+<model-identification-field name="Project" partOfTag="false" value=""/>
+<model-identification-field name="Epic" partOfTag="false" value=""/>
+<model-identification-field name="Feature" partOfTag="false" value=""/>
+<model-identification-field name="User Story" partOfTag="false" value=""/>
+</model-identification>
+<attribute attr_class="NONE" dependencies="false" description="" iotype="NEITHER" name="State" type="STRING">
+<value name="Florida" weight="1"/>
+<value name="Otherthan Florida" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" iotype="NEITHER" name="Processing_Type" type="STRING">
+<value name="Automated" weight="1"/>
+<value name="Manual" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" iotype="NEITHER" name="Transactions" type="STRING">
+<value name="New Business" weight="1"/>
+<value name="New to Renewal" weight="1"/>
+<value name="Prior Dated" weight="1"/>
+<value name="Endorsement" weight="1"/>
+<value name="Quick Quote" weight="1"/>
+<value name="Batch Quote" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" iotype="NEITHER" name="Processing_Date" type="STRING">
+<value name="Prior Date" weight="1"/>
+<value name="After Date" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" iotype="NEITHER" name="Symbols" type="STRING">
+<value name="BOP" weight="1"/>
+<value name="BSP" weight="1"/>
+<value name="CWP" weight="1"/>
+<value name="TRA" weight="1"/>
+<value name="CMM" weight="1"/>
+<value name="CSP" weight="1"/>
+<value name="CAG" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" iotype="NEITHER" name="Commercial_Auto_Type" type="STRING">
+<value name="Business Auto" weight="1"/>
+<value name="Motor Carriers" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" iotype="NEITHER" name="Vehicle_Codes" type="STRING">
+<value name="Less than 900" weight="1"/>
+<value name="Equal to Greater than 900" weight="1"/>
+<value name="997 or 998" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" iotype="NEITHER" name="Schedule_Type_" type="STRING">
+<value name="TO_Light_Truck_" weight="1"/>
+<value name="TO_Medium Truck" weight="1"/>
+<value name="TO_Heavy Truck" weight="1"/>
+<value name="TO_Extra Heavy Truck" weight="1"/>
+<value name="Truck_trailers" weight="1"/>
+<value name="Semi_Trailers" weight="1"/>
+<value name="Utility_Trailers" weight="1"/>
+<value name="Service_Trailers" weight="1"/>
+<value name="Antique_Auto" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" iotype="NEITHER" name="Class_Rated_Vehicle_Drive_Other_Car_DOC" type="BOOLEAN">
+<value name="true" weight="1"/>
+<value name="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" iotype="NEITHER" name="Class_Rated_Vehicle_Comp_Auto" type="BOOLEAN">
+<value name="true" weight="1"/>
+<value name="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" iotype="NEITHER" name="Class_Rated_Vehicle_Non_Owned_Auto_NNO" type="BOOLEAN">
+<value name="true" weight="1"/>
+<value name="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" iotype="NEITHER" name="Class_Rated_Vehicle_Hired_Auto_Liability" type="BOOLEAN">
+<value name="true" weight="1"/>
+<value name="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" iotype="NEITHER" name="Class_Rated_Vehicle_Hired_Auto_Physical_Damage" type="BOOLEAN">
+<value name="true" weight="1"/>
+<value name="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="Imported from model FL UM Phase2_0610: Imported from model 5.3 Commercial Auto.model_0427" iotype="NEITHER" name="Class_Rated_Vehicle_Repossessed_Auto_Coverage" type="STRING">
+<value name="true" weight="1"/>
+<value name="false" weight="1"/>
+<value name="NA" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="Imported from model FL UM Phase2_0610: Imported from model 5.3 Commercial Auto.model_0427" iotype="NEITHER" name="Class_Rated_Vehicle_Expanded_Auto" type="STRING">
+<value name="true" weight="1"/>
+<value name="false" weight="1"/>
+<value name="NA" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="Imported from model FL UM Phase2_0610: Imported from model 5.3 Commercial Auto.model_0427" iotype="NEITHER" name="Class_Rated_Vehicle_Signature_Series" type="STRING">
+<value name="true" weight="1"/>
+<value name="false" weight="1"/>
+<value name="NA" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" iotype="NEITHER" name="Manual_Rated_Vehicle" type="BOOLEAN">
+<value name="true" weight="1"/>
+<value name="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" iotype="NEITHER" name="Counter_Class_Rated" type="COUNTER">
+<countedValue attribute="Class_Rated_Vehicle_Drive_Other_Car_DOC" value="true"/>
+<countedValue attribute="Class_Rated_Vehicle_Non_Owned_Auto_NNO" value="true"/>
+<countedValue attribute="Class_Rated_Vehicle_Hired_Auto_Liability" value="true"/>
+<countedValue attribute="Class_Rated_Vehicle_Hired_Auto_Physical_Damage" value="true"/>
+<countedValue attribute="Class_Rated_Vehicle_Repossessed_Auto_Coverage" value="true"/>
+<countedValue attribute="Class_Rated_Vehicle_Expanded_Auto" value="true"/>
+<countedValue attribute="Class_Rated_Vehicle_Signature_Series" value="true"/>
+<countedValue attribute="Class_Rated_Vehicle_Comp_Auto" value="true"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" iotype="NEITHER" name="Basic_Coverages_BI" type="BOOLEAN">
+<value name="true" weight="60"/>
+<value name="false" weight="40"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" iotype="NEITHER" name="Basic_Coverages_PD" type="BOOLEAN">
+<value name="true" weight="60"/>
+<value name="false" weight="40"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" iotype="NEITHER" name="Basic_Coverages_UMB" type="BOOLEAN">
+<value name="true" weight="60"/>
+<value name="false" weight="40"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" iotype="NEITHER" name="Basic_Coverages_CSL" type="BOOLEAN">
+<value name="true" weight="60"/>
+<value name="false" weight="40"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" iotype="NEITHER" name="Basic_Coverages_UMS" type="BOOLEAN">
+<value name="true" weight="1"/>
+<value name="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" iotype="NEITHER" name="Specified_Individual_Coverage_UDL" type="BOOLEAN">
+<value name="true" weight="90"/>
+<value name="false" weight="10"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" iotype="NEITHER" name="Basic_Coverage_UMS_Limits" type="STRING">
+<value name="20" weight="1"/>
+<value name="30" weight="1"/>
+<value name="50" weight="1"/>
+<value name="100" weight="1"/>
+<value name="125" weight="1"/>
+<value name="150" weight="1"/>
+<value name="200" weight="1"/>
+<value name="250" weight="1"/>
+<value name="300" weight="1"/>
+<value name="350" weight="1"/>
+<value name="400" weight="1"/>
+<value name="450" weight="1"/>
+<value name="500" weight="1"/>
+<value name="600" weight="1"/>
+<value name="750" weight="1"/>
+<value name="1M" weight="1"/>
+<value name="1.5M" weight="1"/>
+<value name="2M" weight="1"/>
+<value name="2.5M" weight="1"/>
+<value name="3M" weight="1"/>
+<value name="5M" weight="1"/>
+<value name="7.5M" weight="1"/>
+<value name="10M" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" iotype="NEITHER" name="Specified_Individual_Coverage_UDL_Limits" type="STRING">
+<value name="20" weight="1"/>
+<value name="30" weight="1"/>
+<value name="50" weight="1"/>
+<value name="100" weight="1"/>
+<value name="125" weight="1"/>
+<value name="150" weight="1"/>
+<value name="200" weight="1"/>
+<value name="250" weight="1"/>
+<value name="300" weight="1"/>
+<value name="350" weight="1"/>
+<value name="400" weight="1"/>
+<value name="450" weight="1"/>
+<value name="500" weight="1"/>
+<value name="600" weight="1"/>
+<value name="750" weight="1"/>
+<value name="1M" weight="1"/>
+<value name="1.5M" weight="1"/>
+<value name="2M" weight="1"/>
+<value name="2.5M" weight="1"/>
+<value name="3M" weight="1"/>
+<value name="5M" weight="1"/>
+<value name="7.5M" weight="1"/>
+<value name="10M" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" iotype="NEITHER" name="Basic_Coverages_CMP" type="BOOLEAN">
+<value name="true" weight="1"/>
+<value name="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" iotype="NEITHER" name="Basic_Coverages_COL" type="BOOLEAN">
+<value name="true" weight="1"/>
+<value name="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="Imported from model FL UM Phase2_0610" iotype="NEITHER" name="Driver_Screen_Entry_UDL" type="BOOLEAN">
+<value name="true" weight="1"/>
+<value name="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="Imported from model FL UM Phase2_0610" iotype="NEITHER" name="Basic_Coverages_PIP" type="BOOLEAN">
+<value name="true" weight="1"/>
+<value name="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="Imported from model FL UM Phase2_0610" iotype="NEITHER" name="Basic_Coverages_PDD" type="BOOLEAN">
+<value name="true" weight="10"/>
+<value name="false" weight="90"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="Imported from model FL UM Phase2_0610" iotype="NEITHER" name="Basic_Coverages_PID" type="BOOLEAN">
+<value name="true" weight="1"/>
+<value name="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="Imported from model FL UM Phase2_0610" iotype="NEITHER" name="Basic_Coverages_PIE" type="BOOLEAN">
+<value name="true" weight="1"/>
+<value name="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="Imported from model FL UM Phase2_0610" iotype="NEITHER" name="Basic_Coverages_PIC" type="BOOLEAN">
+<value name="true" weight="1"/>
+<value name="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="Imported from model FL UM Phase2_0610" iotype="NEITHER" name="Basic_Coverages_DAC" type="BOOLEAN">
+<value name="true" weight="1"/>
+<value name="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="Imported from model FL UM Phase2_0610" iotype="NEITHER" name="Basic_Coverages_SPC" type="BOOLEAN">
+<value name="true" weight="1"/>
+<value name="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" iotype="NEITHER" name="Additional_Coverages" type="STRING">
+<value description="RR  " name="RR_Rental Reimbursement" weight="1"/>
+<value description="TRD" name="TRD_Tape Disk and Recordings" weight="1"/>
+<value description="TL" name="TL_Towing and Lobour" weight="1"/>
+<value description="AVD" name="AVD_Audio Video Drivers" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="Imported from model FL UM Phase2_0610" iotype="NEITHER" name="Comp_Auto_covg_NMB" type="BOOLEAN">
+<value name="true" weight="1"/>
+<value name="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="Imported from model FL UM Phase2_0610" iotype="NEITHER" name="Comp_Auto_covg_CM" type="BOOLEAN">
+<value name="true" weight="1"/>
+<value name="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="Imported from model FL UM Phase2_0610" iotype="NEITHER" name="Comp_Auto_covg_CLS" type="BOOLEAN">
+<value name="true" weight="1"/>
+<value name="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="Imported from model FL UM Phase2_0610" iotype="NEITHER" name="Comp_Auto_covg_EXP" type="BOOLEAN">
+<value name="true" weight="1"/>
+<value name="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="Imported from model FL UM Phase2_0610: Imported from model 5.3 Commercial Auto.model_0427: This is applicable when policy has either Signature Series or Expanded Auto" iotype="NEITHER" name="Special_Covg_EPE" type="BOOLEAN">
+<value name="true" weight="1"/>
+<value name="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" iotype="NEITHER" name="Statistical_Record" type="BOOLEAN">
+<value name="true" weight="1"/>
+<value name="false" weight="1"/>
+</attribute>
+<restriction expression="!(Class_Rated_Vehicle_Hired_Auto_Liability == true) || Basic_Coverages_CMP != true &amp;&amp; Basic_Coverages_COL != true" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Class_Rated_Vehicle_Hired_Auto_Liability" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverages_CMP" operation="Doesn't Equal">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Basic_Coverages_COL" operation="Doesn't Equal">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Class_Rated_Vehicle_Hired_Auto_Physical_Damage == true) || Basic_Coverages_CMP == true &amp;&amp; Basic_Coverages_COL == true" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Class_Rated_Vehicle_Hired_Auto_Physical_Damage" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverages_CMP" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Basic_Coverages_COL" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Class_Rated_Vehicle_Non_Owned_Auto_NNO == true) || Basic_Coverages_CMP != true &amp;&amp; Basic_Coverages_COL != true" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Class_Rated_Vehicle_Non_Owned_Auto_NNO" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverages_CMP" operation="Doesn't Equal">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Basic_Coverages_COL" operation="Doesn't Equal">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Basic_Coverages_UMS == true) || Class_Rated_Vehicle_Comp_Auto == true" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverages_UMS" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Class_Rated_Vehicle_Comp_Auto" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Basic_Coverages_UMS == true) || Class_Rated_Vehicle_Drive_Other_Car_DOC == true" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverages_UMS" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Class_Rated_Vehicle_Drive_Other_Car_DOC" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Basic_Coverages_UMS == true) || Class_Rated_Vehicle_Non_Owned_Auto_NNO != true" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverages_UMS" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Class_Rated_Vehicle_Non_Owned_Auto_NNO" operation="Doesn't Equal">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Basic_Coverages_UMS == true) || Class_Rated_Vehicle_Hired_Auto_Liability != true" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverages_UMS" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Class_Rated_Vehicle_Hired_Auto_Liability" operation="Doesn't Equal">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Basic_Coverages_UMS == true) || Class_Rated_Vehicle_Hired_Auto_Physical_Damage != true" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverages_UMS" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Class_Rated_Vehicle_Hired_Auto_Physical_Damage" operation="Doesn't Equal">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Specified_Individual_Coverage_UDL == true) || Driver_Screen_Entry_UDL == true" iff="false" isActive="true" isAutoGenerated="false" name="Imported from FL UM Phase2_0610" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Driver_Screen_Entry_UDL" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Class_Rated_Vehicle_Expanded_Auto.equals(&quot;true&quot;)) || Vehicle_Codes.equals(&quot;997 or 998&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="Imported from FL UM Phase2_0610: Imported from 5.3 Commercial Auto.model_0427" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Class_Rated_Vehicle_Expanded_Auto" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Vehicle_Codes" operation="Equals">
+<focus-ctd-cond-val value="997 or 998"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Class_Rated_Vehicle_Signature_Series.equals(&quot;true&quot;)) || Vehicle_Codes.equals(&quot;997 or 998&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="Imported from FL UM Phase2_0610: Imported from 5.3 Commercial Auto.model_0427" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Class_Rated_Vehicle_Signature_Series" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Vehicle_Codes" operation="Equals">
+<focus-ctd-cond-val value="997 or 998"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Class_Rated_Vehicle_Signature_Series.equals(&quot;true&quot;)) || Special_Covg_EPE == true" iff="false" isActive="true" isAutoGenerated="false" name="Imported from FL UM Phase2_0610: Imported from 5.3 Commercial Auto.model_0427" type="If-Then">
+<if-expr is_or="true">
+<focus-ctd-cond attribute="Class_Rated_Vehicle_Signature_Series" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Special_Covg_EPE" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Class_Rated_Vehicle_Expanded_Auto.equals(&quot;true&quot;)) || Special_Covg_EPE == true" iff="false" isActive="true" isAutoGenerated="false" name="Imported from FL UM Phase2_0610: Imported from 5.3 Commercial Auto.model_0427" type="If-Then">
+<if-expr is_or="true">
+<focus-ctd-cond attribute="Class_Rated_Vehicle_Expanded_Auto" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Special_Covg_EPE" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Class_Rated_Vehicle_Signature_Series.equals(&quot;true&quot;)) || Class_Rated_Vehicle_Expanded_Auto.equals(&quot;false&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="Imported from FL UM Phase2_0610: Imported from 5.3 Commercial Auto.model_0427" type="If-Then">
+<if-expr is_or="true">
+<focus-ctd-cond attribute="Class_Rated_Vehicle_Signature_Series" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Class_Rated_Vehicle_Expanded_Auto" operation="Equals">
+<focus-ctd-cond-val value="false"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Specified_Individual_Coverage_UDL == true) || Class_Rated_Vehicle_Repossessed_Auto_Coverage.equals(&quot;NA&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="Imported from FL UM Phase2_0610: Imported from 5.3 Commercial Auto.model_OH Rate Change_0508" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Class_Rated_Vehicle_Repossessed_Auto_Coverage" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Specified_Individual_Coverage_UDL == true) || Class_Rated_Vehicle_Expanded_Auto.equals(&quot;NA&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="Imported from FL UM Phase2_0610: Imported from 5.3 Commercial Auto.model_OH Rate Change_0508" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Class_Rated_Vehicle_Expanded_Auto" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Specified_Individual_Coverage_UDL == true) || Class_Rated_Vehicle_Signature_Series.equals(&quot;NA&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="Imported from FL UM Phase2_0610: Imported from 5.3 Commercial Auto.model_OH Rate Change_0508" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Class_Rated_Vehicle_Signature_Series" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Class_Rated_Vehicle_Comp_Auto == true) || Comp_Auto_covg_NMB == true &amp;&amp; Comp_Auto_covg_CM == true &amp;&amp; Comp_Auto_covg_CLS == true &amp;&amp; Comp_Auto_covg_EXP == true" iff="false" isActive="true" isAutoGenerated="false" name="Imported from FL UM Phase2_0610" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Class_Rated_Vehicle_Comp_Auto" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Comp_Auto_covg_NMB" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Comp_Auto_covg_CM" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Comp_Auto_covg_CLS" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Comp_Auto_covg_EXP" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Basic_Coverages_CMP == true) || Basic_Coverages_SPC == false" iff="false" isActive="true" isAutoGenerated="false" name="Imported from FL UM Phase2_0610" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverages_CMP" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="true">
+<focus-ctd-cond attribute="Basic_Coverages_SPC" operation="Equals">
+<focus-ctd-cond-val value="false"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Basic_Coverages_CMP == true) || Basic_Coverages_SPC != true" iff="false" isActive="true" isAutoGenerated="false" name="Imported from FL UM Phase2_0610" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverages_CMP" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverages_SPC" operation="Doesn't Equal">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Class_Rated_Vehicle_Signature_Series.equals(&quot;true&quot;)) || Special_Covg_EPE == true" iff="false" isActive="true" isAutoGenerated="false" name="Imported from FL UM Phase2_0610: Imported from 5.3 Commercial Auto.model_0427" type="If-Then">
+<if-expr is_or="true">
+<focus-ctd-cond attribute="Class_Rated_Vehicle_Signature_Series" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Special_Covg_EPE" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Class_Rated_Vehicle_Expanded_Auto.equals(&quot;true&quot;)) || Special_Covg_EPE == true" iff="false" isActive="true" isAutoGenerated="false" name="Imported from FL UM Phase2_0610: Imported from 5.3 Commercial Auto.model_0427" type="If-Then">
+<if-expr is_or="true">
+<focus-ctd-cond attribute="Class_Rated_Vehicle_Expanded_Auto" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Special_Covg_EPE" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Special_Covg_EPE == true) || Basic_Coverages_CMP != true || Basic_Coverages_COL != true" iff="false" isActive="true" isAutoGenerated="false" name="Imported from FL UM Phase2_0610: Imported from 5.3 Commercial Auto.model_0427" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Special_Covg_EPE" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="true">
+<focus-ctd-cond attribute="Basic_Coverages_CMP" operation="Doesn't Equal">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Basic_Coverages_COL" operation="Doesn't Equal">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Class_Rated_Vehicle_Signature_Series.equals(&quot;true&quot;)) || Special_Covg_EPE == true" iff="false" isActive="true" isAutoGenerated="false" name="Imported from FL UM Phase2_0610: Imported from 5.3 Commercial Auto.model_0427" type="If-Then">
+<if-expr is_or="true">
+<focus-ctd-cond attribute="Class_Rated_Vehicle_Signature_Series" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Special_Covg_EPE" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Class_Rated_Vehicle_Expanded_Auto.equals(&quot;true&quot;)) || Special_Covg_EPE == true" iff="false" isActive="true" isAutoGenerated="false" name="Imported from FL UM Phase2_0610: Imported from 5.3 Commercial Auto.model_0427" type="If-Then">
+<if-expr is_or="true">
+<focus-ctd-cond attribute="Class_Rated_Vehicle_Expanded_Auto" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Special_Covg_EPE" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Class_Rated_Vehicle_Signature_Series.equals(&quot;true&quot;)) || Special_Covg_EPE == true" iff="false" isActive="true" isAutoGenerated="false" name="Imported from FL UM Phase2_0610: Imported from 5.3 Commercial Auto.model_0427" type="If-Then">
+<if-expr is_or="true">
+<focus-ctd-cond attribute="Class_Rated_Vehicle_Signature_Series" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Special_Covg_EPE" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Basic_Coverages_UMS == true) || Specified_Individual_Coverage_UDL == true" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverages_UMS" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Class_Rated_Vehicle_Expanded_Auto.equals(&quot;true&quot;)) || Special_Covg_EPE == true" iff="false" isActive="true" isAutoGenerated="false" name="Imported from FL UM Phase2_0610: Imported from 5.3 Commercial Auto.model_0427" type="If-Then">
+<if-expr is_or="true">
+<focus-ctd-cond attribute="Class_Rated_Vehicle_Expanded_Auto" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Special_Covg_EPE" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Basic_Coverages_CSL == true) || Basic_Coverages_BI != true" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverages_CSL" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverages_BI" operation="Doesn't Equal">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Basic_Coverages_PD == true) || Basic_Coverages_BI == true" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverages_PD" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverages_BI" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Class_Rated_Vehicle_Signature_Series.equals(&quot;true&quot;)) || Special_Covg_EPE == true" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="true">
+<focus-ctd-cond attribute="Class_Rated_Vehicle_Signature_Series" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Special_Covg_EPE" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Class_Rated_Vehicle_Expanded_Auto.equals(&quot;true&quot;)) || Special_Covg_EPE == true" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="true">
+<focus-ctd-cond attribute="Class_Rated_Vehicle_Expanded_Auto" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Special_Covg_EPE" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Class_Rated_Vehicle_Signature_Series.equals(&quot;true&quot;)) || Class_Rated_Vehicle_Expanded_Auto.equals(&quot;false&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="true">
+<focus-ctd-cond attribute="Class_Rated_Vehicle_Signature_Series" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Class_Rated_Vehicle_Expanded_Auto" operation="Equals">
+<focus-ctd-cond-val value="false"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Specified_Individual_Coverage_UDL == true) || !Class_Rated_Vehicle_Repossessed_Auto_Coverage.equals(&quot;true&quot;) || Class_Rated_Vehicle_Non_Owned_Auto_NNO != true || Class_Rated_Vehicle_Hired_Auto_Liability != true || Class_Rated_Vehicle_Hired_Auto_Physical_Damage != true || !Class_Rated_Vehicle_Expanded_Auto.equals(&quot;true&quot;) || !Class_Rated_Vehicle_Signature_Series.equals(&quot;true&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="true">
+<focus-ctd-cond attribute="Class_Rated_Vehicle_Repossessed_Auto_Coverage" operation="Doesn't Equal">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Class_Rated_Vehicle_Non_Owned_Auto_NNO" operation="Doesn't Equal">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Class_Rated_Vehicle_Hired_Auto_Liability" operation="Doesn't Equal">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Class_Rated_Vehicle_Hired_Auto_Physical_Damage" operation="Doesn't Equal">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Class_Rated_Vehicle_Expanded_Auto" operation="Doesn't Equal">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Class_Rated_Vehicle_Signature_Series" operation="Doesn't Equal">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Basic_Coverages_CSL == true) || Basic_Coverages_UMS == true" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverages_CSL" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverages_UMS" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Basic_Coverage_UMS_Limits.equals(&quot;20&quot;)) || !Specified_Individual_Coverage_UDL_Limits.equals(&quot;20&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="20"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Doesn't Equal">
+<focus-ctd-cond-val value="20"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Basic_Coverage_UMS_Limits.equals(&quot;30&quot;)) || !Specified_Individual_Coverage_UDL_Limits.equals(&quot;30&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="30"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Doesn't Equal">
+<focus-ctd-cond-val value="30"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Basic_Coverage_UMS_Limits.equals(&quot;50&quot;)) || !Specified_Individual_Coverage_UDL_Limits.equals(&quot;50&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="50"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Doesn't Equal">
+<focus-ctd-cond-val value="50"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Basic_Coverage_UMS_Limits.equals(&quot;100&quot;)) || !Specified_Individual_Coverage_UDL_Limits.equals(&quot;100&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="100"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Doesn't Equal">
+<focus-ctd-cond-val value="100"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Basic_Coverage_UMS_Limits.equals(&quot;125&quot;)) || !Specified_Individual_Coverage_UDL_Limits.equals(&quot;125&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="125"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Doesn't Equal">
+<focus-ctd-cond-val value="125"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Basic_Coverage_UMS_Limits.equals(&quot;150&quot;)) || !Specified_Individual_Coverage_UDL_Limits.equals(&quot;150&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="150"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Doesn't Equal">
+<focus-ctd-cond-val value="150"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Basic_Coverage_UMS_Limits.equals(&quot;200&quot;)) || !Specified_Individual_Coverage_UDL_Limits.equals(&quot;200&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="200"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Doesn't Equal">
+<focus-ctd-cond-val value="200"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Basic_Coverage_UMS_Limits.equals(&quot;250&quot;)) || !Specified_Individual_Coverage_UDL_Limits.equals(&quot;250&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="250"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Doesn't Equal">
+<focus-ctd-cond-val value="250"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Basic_Coverage_UMS_Limits.equals(&quot;300&quot;)) || !Specified_Individual_Coverage_UDL_Limits.equals(&quot;300&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="300"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Doesn't Equal">
+<focus-ctd-cond-val value="300"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Basic_Coverage_UMS_Limits.equals(&quot;350&quot;)) || !Specified_Individual_Coverage_UDL_Limits.equals(&quot;350&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="350"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Doesn't Equal">
+<focus-ctd-cond-val value="350"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Basic_Coverage_UMS_Limits.equals(&quot;400&quot;)) || !Specified_Individual_Coverage_UDL_Limits.equals(&quot;400&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="400"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Doesn't Equal">
+<focus-ctd-cond-val value="400"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Basic_Coverage_UMS_Limits.equals(&quot;450&quot;)) || !Specified_Individual_Coverage_UDL_Limits.equals(&quot;450&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="450"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Doesn't Equal">
+<focus-ctd-cond-val value="450"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Basic_Coverage_UMS_Limits.equals(&quot;500&quot;)) || !Specified_Individual_Coverage_UDL_Limits.equals(&quot;500&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="500"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Doesn't Equal">
+<focus-ctd-cond-val value="500"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Basic_Coverage_UMS_Limits.equals(&quot;600&quot;)) || !Specified_Individual_Coverage_UDL_Limits.equals(&quot;600&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="600"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Doesn't Equal">
+<focus-ctd-cond-val value="600"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Basic_Coverage_UMS_Limits.equals(&quot;750&quot;)) || !Specified_Individual_Coverage_UDL_Limits.equals(&quot;750&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="750"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Doesn't Equal">
+<focus-ctd-cond-val value="750"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Basic_Coverage_UMS_Limits.equals(&quot;1M&quot;)) || !Specified_Individual_Coverage_UDL_Limits.equals(&quot;1M&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="1M"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Doesn't Equal">
+<focus-ctd-cond-val value="1M"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Basic_Coverage_UMS_Limits.equals(&quot;1.5M&quot;)) || !Specified_Individual_Coverage_UDL_Limits.equals(&quot;1.5M&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="1.5M"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Doesn't Equal">
+<focus-ctd-cond-val value="1.5M"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Basic_Coverage_UMS_Limits.equals(&quot;2M&quot;)) || !Specified_Individual_Coverage_UDL_Limits.equals(&quot;2M&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="2M"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Doesn't Equal">
+<focus-ctd-cond-val value="2M"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Basic_Coverage_UMS_Limits.equals(&quot;2.5M&quot;)) || !Specified_Individual_Coverage_UDL_Limits.equals(&quot;2.5M&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="2.5M"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Doesn't Equal">
+<focus-ctd-cond-val value="2.5M"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Basic_Coverage_UMS_Limits.equals(&quot;3M&quot;)) || !Specified_Individual_Coverage_UDL_Limits.equals(&quot;3M&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="3M"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Doesn't Equal">
+<focus-ctd-cond-val value="3M"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Basic_Coverage_UMS_Limits.equals(&quot;5M&quot;)) || !Specified_Individual_Coverage_UDL_Limits.equals(&quot;5M&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="5M"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Doesn't Equal">
+<focus-ctd-cond-val value="5M"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Basic_Coverage_UMS_Limits.equals(&quot;7.5M&quot;)) || !Specified_Individual_Coverage_UDL_Limits.equals(&quot;7.5M&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="7.5M"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Doesn't Equal">
+<focus-ctd-cond-val value="7.5M"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Basic_Coverage_UMS_Limits.equals(&quot;10M&quot;)) || !Specified_Individual_Coverage_UDL_Limits.equals(&quot;10M&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="10M"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Doesn't Equal">
+<focus-ctd-cond-val value="10M"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Basic_Coverages_BI == true) || Basic_Coverages_PD == true" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverages_BI" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverages_PD" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Basic_Coverages_BI == true) || Basic_Coverages_UMB == true" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverages_BI" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Basic_Coverages_UMB" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<coverage-reqs-sets defaultCoverageRequirementsSet="Multi Level">
+<coverage-reqs-set description="L2" name="Multi Level">
+<coverage-req>
+<attribute name="Transactions"/>
+<attribute name="Commercial_Auto_Type"/>
+<attribute name="Additional_Coverages"/>
+<coverage-goal coverage-goal-val="2"/>
+</coverage-req>
+<coverage-req>
+<attribute name="Processing_Type"/>
+<attribute name="Transactions"/>
+<attribute name="Symbols"/>
+<attribute name="Commercial_Auto_Type"/>
+<attribute name="Additional_Coverages"/>
+<attribute name="Vehicle_Codes"/>
+<attribute name="Schedule_Type_"/>
+<attribute name="Class_Rated_Vehicle_Drive_Other_Car_DOC"/>
+<attribute name="Class_Rated_Vehicle_Non_Owned_Auto_NNO"/>
+<attribute name="Class_Rated_Vehicle_Hired_Auto_Liability"/>
+<attribute name="Class_Rated_Vehicle_Hired_Auto_Physical_Damage"/>
+<attribute name="Basic_Coverages_CSL"/>
+<attribute name="Basic_Coverages_UMS"/>
+<attribute name="Specified_Individual_Coverage_UDL"/>
+<attribute name="Basic_Coverages_CMP"/>
+<attribute name="Basic_Coverages_COL"/>
+<coverage-goal coverage-goal-val="1"/>
+</coverage-req>
+</coverage-reqs-set>
+</coverage-reqs-sets>
+<neg-coverage-reqs-sets defaultCoverageRequirementsSet="SingleNegativeCoverageRequirementsSet" isAutoNegCoverageRequirements="true">
+<coverage-reqs-set description="" name="SingleNegativeCoverageRequirementsSet">
+<coverage-req>
+<coverage-goal coverage-goal-val="1"/>
+<negative-attribute-combination>
+<attribute name="Transactions"/>
+</negative-attribute-combination>
+</coverage-req>
+<coverage-req>
+<coverage-goal coverage-goal-val="1"/>
+<negative-attribute-combination>
+<attribute name="State"/>
+</negative-attribute-combination>
+</coverage-req>
+</coverage-reqs-set>
+</neg-coverage-reqs-sets>
+<negative-combination>
+<attr-value attribute="Transactions" value="Prior Dated"/>
+</negative-combination>
+<negative-combination>
+<attr-value attribute="State" value="Otherthan Florida"/>
+</negative-combination>
+<focus-ctd-decoration decorationType="structuredDecoration">
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Pre_Condition_BA" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Key the 12 CA keyed with all possible coverage starts with 01 series"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Commercial_Auto_Type" operation="Equals">
+<focus-ctd-cond-val value="Business Auto"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Pre_Condition_MC" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Key the 12 CA keyed with all possible coverage starts with 01 series"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Commercial_Auto_Type" operation="Equals">
+<focus-ctd-cond-val value="Motor Carriers"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="true" name="Pre_Condition_Symbols" negative="true" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Key the testcase with any symbol (BSP/CWP/TRA/CMM/CSP/CAG)"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Symbols" operation="Equals">
+<focus-ctd-cond-val value="BSP"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Symbols" operation="Equals">
+<focus-ctd-cond-val value="CWP"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Symbols" operation="Equals">
+<focus-ctd-cond-val value="TRA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Symbols" operation="Equals">
+<focus-ctd-cond-val value="CMM"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Symbols" operation="Equals">
+<focus-ctd-cond-val value="CSP"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Symbols" operation="Equals">
+<focus-ctd-cond-val value="CAG"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Pre_Condition_Veh_Codes" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Enter Schedule Vehicle with Code &lt; 900, Class Rated &gt;=900 and Signature Series/Expanded Auto with 997/998 Class Codes on PUCA Screen"/>
+</focus-ctd-single-template>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Pre_Conditon_UDL with limit_20" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Verify the below things as part of UDL coverage&#13;&#10;1. UDL limit accepted for 20,000 on applicable vehicles in PUCA screen&#13;&#10;2. Specified Individual(UL) indicator in PUDR screen&#13;&#10;3. Stats display for 46 Stat ID&#13;&#10;4. Dec wording with premium (Included)"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Equals">
+<focus-ctd-cond-val value="20"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Pre_Conditon_UDL with limit_30" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Verify the below things as part of UDL coverage&#13;&#10;1. UDL limit accepted for 30,000 on applicable vehicles in PUCA screen&#13;&#10;2. Specified Individual(UL) indicator in PUDR screen&#13;&#10;3. Stats display for 46 Stat ID&#13;&#10;4. Dec wording with premium (Included)"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Equals">
+<focus-ctd-cond-val value="30"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Pre_Conditon_UDL with limit_50" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Verify the below things as part of UDL coverage&#13;&#10;1. UDL limit accepted for 50,000 on applicable vehicles in PUCA screen&#13;&#10;2. Specified Individual(UL) indicator in PUDR screen&#13;&#10;3. Stats display for 46 Stat ID&#13;&#10;4. Dec wording with premium (Included)"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Equals">
+<focus-ctd-cond-val value="50"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Pre_Conditon_UDL with limit_100" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Verify the below things as part of UDL coverage&#13;&#10;1. UDL limit accepted for 100,000 on applicable vehicles in PUCA screen&#13;&#10;2. Specified Individual(UL) indicator in PUDR screen&#13;&#10;3. Stats display for 46 Stat ID&#13;&#10;4. Dec wording with premium (Included)"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Equals">
+<focus-ctd-cond-val value="100"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Pre_Conditon_UDL with limit_125" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Verify the below things as part of UDL coverage&#13;&#10;1. UDL limit accepted for 125,000 on applicable vehicles in PUCA screen&#13;&#10;2. Specified Individual(UL) indicator in PUDR screen&#13;&#10;3. Stats display for 46 Stat ID&#13;&#10;4. Dec wording with premium (Included)"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Equals">
+<focus-ctd-cond-val value="125"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Pre_Conditon_UDL with limit_150" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Verify the below things as part of UDL coverage&#13;&#10;1. UDL limit accepted for 150,000 on applicable vehicles in PUCA screen&#13;&#10;2. Specified Individual(UL) indicator in PUDR screen&#13;&#10;3. Stats display for 46 Stat ID&#13;&#10;4. Dec wording with premium (Included)"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Equals">
+<focus-ctd-cond-val value="150"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Pre_Conditon_UDL with limit_200" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Verify the below things as part of UDL coverage&#13;&#10;1. UDL limit accepted for 200,000 on applicable vehicles in PUCA screen&#13;&#10;2. Specified Individual(UL) indicator in PUDR screen&#13;&#10;3. Stats display for 46 Stat ID&#13;&#10;4. Dec wording with premium (Included)"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Equals">
+<focus-ctd-cond-val value="200"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Pre_Conditon_UDL with limit_250" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Verify the below things as part of UDL coverage&#13;&#10;1. UDL limit accepted for 250,000 on applicable vehicles in PUCA screen&#13;&#10;2. Specified Individual(UL) indicator in PUDR screen&#13;&#10;3. Stats display for 46 Stat ID&#13;&#10;4. Dec wording with premium (Included)"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Equals">
+<focus-ctd-cond-val value="250"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Pre_Conditon_UDL with limit_300" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Verify the below things as part of UDL coverage&#13;&#10;1. UDL limit accepted for 300,000 on applicable vehicles in PUCA screen&#13;&#10;2. Specified Individual(UL) indicator in PUDR screen&#13;&#10;3. Stats display for 46 Stat ID&#13;&#10;4. Dec wording with premium (Included)"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Equals">
+<focus-ctd-cond-val value="300"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Pre_Conditon_UDL with limit_350" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Verify the below things as part of UDL coverage&#13;&#10;1. UDL limit accepted for 350,000 on applicable vehicles in PUCA screen&#13;&#10;2. Specified Individual(UL) indicator in PUDR screen&#13;&#10;3. Stats display for 46 Stat ID&#13;&#10;4. Dec wording with premium (Included)"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Equals">
+<focus-ctd-cond-val value="350"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Pre_Conditon_UDL with limit_400" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Verify the below things as part of UDL coverage&#13;&#10;1. UDL limit accepted for 400,000 on applicable vehicles in PUCA screen&#13;&#10;2. Specified Individual(UL) indicator in PUDR screen&#13;&#10;3. Stats display for 46 Stat ID&#13;&#10;4. Dec wording with premium (Included)"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Equals">
+<focus-ctd-cond-val value="400"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Pre_Conditon_UDL with limit_450" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Verify the below things as part of UDL coverage&#13;&#10;1. UDL limit accepted for 450,000 on applicable vehicles in PUCA screen&#13;&#10;2. Specified Individual(UL) indicator in PUDR screen&#13;&#10;3. Stats display for 46 Stat ID&#13;&#10;4. Dec wording with premium (Included)"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Equals">
+<focus-ctd-cond-val value="450"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Pre_Conditon_UDL with limit_500" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Verify the below things as part of UDL coverage&#13;&#10;1. UDL limit accepted for 500,000 on applicable vehicles in PUCA screen&#13;&#10;2. Specified Individual(UL) indicator in PUDR screen&#13;&#10;3. Stats display for 46 Stat ID&#13;&#10;4. Dec wording with premium (Included)"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Equals">
+<focus-ctd-cond-val value="500"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Pre_Conditon_UDL with limit_600" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Verify the below things as part of UDL coverage&#13;&#10;1. UDL limit accepted for 600,000 on applicable vehicles in PUCA screen&#13;&#10;2. Specified Individual(UL) indicator in PUDR screen&#13;&#10;3. Stats display for 46 Stat ID&#13;&#10;4. Dec wording with premium (Included)"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Equals">
+<focus-ctd-cond-val value="600"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Pre_Conditon_UDL with limit_750" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Verify the below things as part of UDL coverage&#13;&#10;1. UDL limit accepted for 750,000 on applicable vehicles in PUCA screen&#13;&#10;2. Specified Individual(UL) indicator in PUDR screen&#13;&#10;3. Stats display for 46 Stat ID&#13;&#10;4. Dec wording with premium (Included)"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Equals">
+<focus-ctd-cond-val value="750"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Pre_Conditon_UDL with limit_1M" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Verify the below things as part of UDL coverage&#13;&#10;1. UDL limit accepted for 1M on applicable vehicles in PUCA screen&#13;&#10;2. Specified Individual(UL) indicator in PUDR screen&#13;&#10;3. Stats display for 46 Stat ID&#13;&#10;4. Dec wording with premium (Included)"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Equals">
+<focus-ctd-cond-val value="1M"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Pre_Conditon_UDL with limit_1.5M" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Verify the below things as part of UDL coverage&#13;&#10;1. UDL limit accepted for 1.5M on applicable vehicles in PUCA screen&#13;&#10;2. Specified Individual(UL) indicator in PUDR screen&#13;&#10;3. Stats display for 46 Stat ID&#13;&#10;4. Dec wording with premium (Included)"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Equals">
+<focus-ctd-cond-val value="1.5M"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Pre_Conditon_UDL with limit_2M" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Verify the below things as part of UDL coverage&#13;&#10;1. UDL limit accepted for 2M on applicable vehicles in PUCA screen&#13;&#10;2. Specified Individual(UL) indicator in PUDR screen&#13;&#10;3. Stats display for 46 Stat ID&#13;&#10;4. Dec wording with premium (Included)"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Equals">
+<focus-ctd-cond-val value="2M"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Pre_Conditon_UDL with limit_2.5M" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Verify the below things as part of UDL coverage&#13;&#10;1. UDL limit accepted for 2.5M on applicable vehicles in PUCA screen&#13;&#10;2. Specified Individual(UL) indicator in PUDR screen&#13;&#10;3. Stats display for 46 Stat ID&#13;&#10;4. Dec wording with premium (Included)"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Equals">
+<focus-ctd-cond-val value="2.5M"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Pre_Conditon_UDL with limit_3M" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Verify the below things as part of UDL coverage&#13;&#10;1. UDL limit accepted for 2.5M on applicable vehicles in PUCA screen&#13;&#10;2. Specified Individual(UL) indicator in PUDR screen&#13;&#10;3. Stats display for 46 Stat ID&#13;&#10;4. Dec wording with premium (Included)"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Equals">
+<focus-ctd-cond-val value="3M"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Pre_Conditon_UDL with limit_5M" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Verify the below things as part of UDL coverage&#13;&#10;1. UDL limit accepted for 2.5M on applicable vehicles in PUCA screen&#13;&#10;2. Specified Individual(UL) indicator in PUDR screen&#13;&#10;3. Stats display for 46 Stat ID&#13;&#10;4. Dec wording with premium (Included)"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Equals">
+<focus-ctd-cond-val value="5M"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Pre_Conditon_UDL with limit_7.5M" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Verify the below things as part of UDL coverage&#13;&#10;1. UDL limit accepted for 2.5M on applicable vehicles in PUCA screen&#13;&#10;2. Specified Individual(UL) indicator in PUDR screen&#13;&#10;3. Stats display for 46 Stat ID&#13;&#10;4. Dec wording with premium (Included)"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Equals">
+<focus-ctd-cond-val value="7.5M"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Pre_Conditon_UDL with limit_10M" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Verify the below things as part of UDL coverage&#13;&#10;1. UDL limit accepted for 2.5M on applicable vehicles in PUCA screen&#13;&#10;2. Specified Individual(UL) indicator in PUDR screen&#13;&#10;3. Stats display for 46 Stat ID&#13;&#10;4. Dec wording with premium (Included)"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL_Limits" operation="Equals">
+<focus-ctd-cond-val value="10M"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="UMS_Limit_20" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Enter UMS coverage as 20,000 on applicable vehicles"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="20"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="UMS_Limit_30" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Enter UMS coverage as 30,000 on applicable vehicles"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="30"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="UMS_Limit_50" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Enter UMS coverage as 50,000 on applicable vehicles"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="50"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="UMS_Limit_100" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Enter UMS coverage as 100,000 on applicable vehicles"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="100"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="UMS_Limit_125" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Enter UMS coverage as 125,000 on applicable vehicles"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="125"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="UMS_Limit_150" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Enter UMS coverage as 150,000 on applicable vehicles"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="150"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="UMS_Limit_200" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Enter UMS coverage as 200,000 on applicable vehicles"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="200"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="UMS_Limit_250" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Enter UMS coverage as 250,000 on applicable vehicles"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="250"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="UMS_Limit_300" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Enter UMS coverage as 300,000 on applicable vehicles"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="300"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="UMS_Limit_350" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Enter UMS coverage as 350,000 on applicable vehicles"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="350"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="UMS_Limit_400" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Enter UMS coverage as 400,000 on applicable vehicles"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="400"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="UMS_Limit_450" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Enter UMS coverage as 450,000 on applicable vehicles"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="450"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="UMS_Limit_500" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Enter UMS coverage as 500,000 on applicable vehicles"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="500"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="UMS_Limit_600" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Enter UMS coverage as 600,000 on applicable vehicles"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="600"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="UMS_Limit_750" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Enter UMS coverage as 750,000 on applicable vehicles"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="750"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="UMS_Limit_1M" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Enter UMS coverage as 1M on applicable vehicles"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="1M"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="UMS_Limit_1.5M" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Enter UMS coverage as 1.5M on applicable vehicles"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="1.5M"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="UMS_Limit_2M" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Enter UMS coverage as 2M on applicable vehicles"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="2M"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="UMS_Limit_2.5M" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Enter UMS coverage as 2.5M on applicable vehicles"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="2.5M"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="UMS_Limit_3M" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Enter UMS coverage as 3M on applicable vehicles"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="3M"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="UMS_Limit_5M" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Enter UMS coverage as 5M on applicable vehicles"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="5M"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="UMS_Limit_7.5M" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Enter UMS coverage as 7.5M on applicable vehicles"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="7.5M"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="UMS_Limit_10M" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Enter UMS coverage as 10M on applicable vehicles"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Basic_Coverage_UMS_Limits" operation="Equals">
+<focus-ctd-cond-val value="10M"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Test_Steps_Processing_Automatic" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="Key a policy that processes through Automatic type"/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Verify the policy has processed automatically"/>
+</focus-ctd-multiple-template-expectedResults>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Processing_Type" operation="Equals">
+<focus-ctd-cond-val value="Automated"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Test_Steps_Processing_Manual" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="Key the testcase as Manual Issued with IS 'M'"/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Verify the policy has keyed Stat Screens along with Premiums"/>
+</focus-ctd-multiple-template-expectedResults>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Processing_Type" operation="Equals">
+<focus-ctd-cond-val value="Manual"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Test_Steps_3" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="Key a policy in satisfying New Business Effective/Enter Dates"/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Verify the policy is keyed successfully"/>
+</focus-ctd-multiple-template-expectedResults>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Transactions" operation="Equals">
+<focus-ctd-cond-val value="New Business"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Test_Steps_4" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="Key a policy in satisfying Renewal Business Effective/Enter Dates"/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Verify the policy is keyed successfully with 01 module"/>
+</focus-ctd-multiple-template-expectedResults>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Transactions" operation="Equals">
+<focus-ctd-cond-val value="New to Renewal"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Test_Steps_5" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="Key a policy in satisfying Prior Date (Effective Date - 1)"/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Verify the policy is keyed successfully with Prior dated condition"/>
+</focus-ctd-multiple-template-expectedResults>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Transactions" operation="Equals">
+<focus-ctd-cond-val value="Prior Dated"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Test_Steps_Schedule_Light Truck_TO" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="Key a Light Truck vehicle with Class Code given per Manual"/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Verify the TO entry with corresponding Class Code"/>
+</focus-ctd-multiple-template-expectedResults>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Schedule_Type_" operation="Equals">
+<focus-ctd-cond-val value="TO_Light_Truck_"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Test_Steps_DOC" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="Enter a DOC coverage with vehicle Code &gt; = 900 (except 997/998) along with DR Screen on the policy"/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Verify the coverage is keyed along with corresponding entry on DR screen"/>
+</focus-ctd-multiple-template-expectedResults>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Class_Rated_Vehicle_Drive_Other_Car_DOC" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Test_Steps_NNO" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="Enter a NNO Coverage with vehicle Code &gt; = 900 (except 997/998), with Liability Coverage. CMP/COL are not applicable."/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Verify the CC type entry with corresponding Liability Coverages"/>
+</focus-ctd-multiple-template-expectedResults>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Class_Rated_Vehicle_Non_Owned_Auto_NNO" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="true" name="Test_Steps_Manual_Rated_vehicle" negative="true" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="Key Manual Rated Vehicle with given vehicle type/corresponding coverages"/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Verify the scenario working as expected"/>
+</focus-ctd-multiple-template-expectedResults>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Manual_Rated_Vehicle" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Test_Steps_Comp_Signature_Series_1 Imported from model 5.3 Commercial Auto.model_0427_1 Imported from model FL UM Phase2_0610" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="Key a policy with Signature Series Coverage with below details.&#10;&gt;12SS segment &#10;&gt; Vehicle Type as CC with 997/998 as code along with EPE coverage&#10;&gt; Class Code as 9993"/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Verify the Signature Series Coverage is entered as given above"/>
+</focus-ctd-multiple-template-expectedResults>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Class_Rated_Vehicle_Signature_Series" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Test_Steps_Comp_Expanded_Auto_1 Imported from model 5.3 Commercial Auto.model_0427_1 Imported from model FL UM Phase2_0610" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="Key a policy with Expanded Auto Coverage &#10;&gt; Veh type as CC &#10;&gt; Class Code as 9996 along with EPE coverage on it"/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Verify the Expanded Coverage is entered as expected"/>
+</focus-ctd-multiple-template-expectedResults>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Class_Rated_Vehicle_Expanded_Auto" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Test_Steps_Comp_Auto_1 Imported from model FL UM Phase2_0610" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="Key a Composite Auto Vehicle with with vehicle Code &gt; = 900 (except 997/998), Class Code of any Schedule Vehicle along with below coverages (NMB/CM/CLS/EXP)"/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Verify the CC type entry with corresponding mandatory Coverages"/>
+</focus-ctd-multiple-template-expectedResults>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Class_Rated_Vehicle_Comp_Auto" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Comp_Auto_covg_NMB" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Comp_Auto_covg_CM" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Comp_Auto_covg_CLS" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Comp_Auto_covg_EXP" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Test_Steps_Hired_Auto_Coverage" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="Enter a Hired auto Liability Coverage with vehicle Code &gt; = 900 (except 997/998), with SL/UMS/UNS. * CMP/COL are not applicable"/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Verify the CC type entry with corresponding Liability Coverages"/>
+</focus-ctd-multiple-template-expectedResults>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Class_Rated_Vehicle_Hired_Auto_Liability" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Test_Steps_Hired_Auto_Phy_Damage" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="Key a Hired auto Physical Damage Coverage with vehicle Code &gt; = 900 (except 997/998), with CMP/COL. *SL/UMS/UNS are not applicable"/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Verify the CC type entry with corresponding CMP/COL Coverages"/>
+</focus-ctd-multiple-template-expectedResults>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Class_Rated_Vehicle_Hired_Auto_Physical_Damage" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Test_Steps_Basic_Coverage_Repossessed auto" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="Enter a Class rated 'Repossessed auto' vehicle on the policy"/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Verify the vehicle keyed as expected"/>
+</focus-ctd-multiple-template-expectedResults>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Class_Rated_Vehicle_Repossessed_Auto_Coverage" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Test_Steps_Comp_Basic_Coverage_SL" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="Key a CSL Coverage with Valid limit"/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Verify the Coverage keyed successfully"/>
+</focus-ctd-multiple-template-expectedResults>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Basic_Coverages_CSL" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="true" name="Test_Steps_Comp_Basic_Coverage_UMSUNS" negative="true" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="Key UMS/UNS Coverage with Valid limit that is 'Less than' or 'Equal to' CSL coverage"/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Verify the Coverage keyed as expected"/>
+</focus-ctd-multiple-template-expectedResults>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Basic_Coverages_UMS" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Test_Steps_Basic_Coverage_BI/PD/UMB" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="Key a BI/PD Coverages along with UMB with a Valid limit"/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Verify the Coverages keyed successfully"/>
+</focus-ctd-multiple-template-expectedResults>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Basic_Coverages_BI" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Basic_Coverages_PD" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Basic_Coverages_UMB" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Test_Steps_UDL" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="Enter UDL Coverage with limit not same as UMS coverage on all above vehicles"/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Verify the coverage is keyed as expected without errors"/>
+</focus-ctd-multiple-template-expectedResults>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="true" name="Test_Steps_Comp_Basic_Coverage_CMP/COL" negative="true" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="Key Deductible Coverages (CMP/COL) with Valid limit as per Manual"/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Verify the Coverages keyed as expected"/>
+</focus-ctd-multiple-template-expectedResults>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Basic_Coverages_CMP" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Basic_Coverages_COL" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="true" name="Test_Steps_Basic_Coverage_PIP and other_1 Imported from model FL UM Phase2_0610" negative="true" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="Enter the PIP specific coverages (PIP/PID/PIC/PIE/PIN/PDD etc) on the vehicle along with Valid limits"/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Verify the Coverage(s) keyed successfully"/>
+</focus-ctd-multiple-template-expectedResults>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Basic_Coverages_PIP" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Basic_Coverages_PID" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Basic_Coverages_PIE" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Basic_Coverages_PIC" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Basic_Coverages_PDD" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="true" name="Test_Steps_Comp_Basic_Coverage_SPC/COL_1 Imported from model FL UM Phase2_0610" negative="true" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="Key Deductible Coverages (SPC/COL) with Valid limit as per Manual"/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Verify the Coverages keyed as expected"/>
+</focus-ctd-multiple-template-expectedResults>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Basic_Coverages_SPC" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Basic_Coverages_COL" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Test_Steps_RR" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="Key a RR Coverage with valid limits (30/900, 40/1200, 50/1500)"/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Verify the coverage is keyed as expected"/>
+</focus-ctd-multiple-template-expectedResults>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Additional_Coverages" operation="Equals">
+<focus-ctd-cond-val value="RR_Rental Reimbursement"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Test_Steps_TRD" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="Key a TRD Coverage with valid limits"/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Verify the coverage is keyed as expected"/>
+</focus-ctd-multiple-template-expectedResults>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Additional_Coverages" operation="Equals">
+<focus-ctd-cond-val value="TRD_Tape Disk and Recordings"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Test_Steps_TL" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="Key a TL Coverage with valid limits"/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Verify the coverage is keyed as expected"/>
+</focus-ctd-multiple-template-expectedResults>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Additional_Coverages" operation="Equals">
+<focus-ctd-cond-val value="TL_Towing and Lobour"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Test_Steps_AVD" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="Key a AVD Coverage with valid limits"/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Verify the coverage is keyed as expected"/>
+</focus-ctd-multiple-template-expectedResults>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Additional_Coverages" operation="Equals">
+<focus-ctd-cond-val value="AVD_Audio Video Drivers"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Test_Steps_Quick Quote" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="Quote the policy first without entering UL indicator on PUDR screen"/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Verify if the quote ran successfully without PUDR entry"/>
+</focus-ctd-multiple-template-expectedResults>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Transactions" operation="Equals">
+<focus-ctd-cond-val value="Quick Quote"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Driver_Entry_UDL_1 Imported from model FL UM Phase2_0610" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="Enter PUDR screen along with UL Indicator marked"/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Verify whether the Indicator is marked on atleast one driver"/>
+</focus-ctd-multiple-template-expectedResults>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Driver_Screen_Entry_UDL" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Test_Steps_DOC with UDL" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="Enter DO &amp; UL indicators on Same driver as it has DOC &amp; UDL coverage on it"/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Verify the PUDR keyed as expected"/>
+</focus-ctd-multiple-template-expectedResults>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Class_Rated_Vehicle_Drive_Other_Car_DOC" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Test Steps_Stats" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="Since policy has UDL coverage, verify the new stat generated  '46' ID."/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Verify the stats are populated as expected for new coverage"/>
+</focus-ctd-multiple-template-expectedResults>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Statistical_Record" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Specified_Individual_Coverage_UDL" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Test_Steps_Endorsement" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="Do a Endorsement on a policy (Reissue/Amendment/Cancel Bump/Cancellation etc.)"/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Verify the transaction processed Successfully and Validate the results"/>
+</focus-ctd-multiple-template-expectedResults>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Transactions" operation="Equals">
+<focus-ctd-cond-val value="Endorsement"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+</focus-ctd-decoration>
+<focus-ctd-model-sync>
+<focus-ctd-model-sync-mult/>
+<focus-ctd-model-sync-na/>
+</focus-ctd-model-sync>
+</focus-model>
